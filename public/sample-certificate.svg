@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="780" viewBox="0 0 1100 780" role="img" aria-label="Sample certificate with personal details removed">
+  <defs>
+    <filter id="blur" x="-10%" y="-60%" width="120%" height="220%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <pattern id="hatch" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="14" height="14" fill="#2b2f2d"/>
+      <line x1="0" y1="0" x2="0" y2="14" stroke="#4a504d" stroke-width="5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1100" height="780" fill="#fbfaf4"/>
+  <rect x="26" y="26" width="1048" height="728" fill="none" stroke="#06642b" stroke-width="6"/>
+  <rect x="44" y="44" width="1012" height="692" fill="none" stroke="#6bb68c" stroke-width="2"/>
+
+  <!-- watermark -->
+  <text x="550" y="470" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="128" font-weight="800" fill="#c0392b" fill-opacity="0.16" transform="rotate(-18 550 400)">SAMPLE CERTIFICATE</text>
+
+  <text x="550" y="130" text-anchor="middle" font-family="Georgia, serif" font-size="46" font-weight="700" fill="#06642b">Good Agricultural Practices</text>
+  <text x="550" y="178" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#3b4a42">Sample document for demonstration only</text>
+
+  <text x="550" y="262" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#55635b">This is to record that the holder named below</text>
+
+  <!-- name: blocked out -->
+  <rect x="270" y="288" width="560" height="64" rx="6" fill="url(#hatch)"/>
+  <text x="550" y="330" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#ffffff" fill-opacity="0.92">NAME REMOVED</text>
+
+  <!-- blurred lines of body text -->
+  <g filter="url(#blur)" fill="#55635b">
+    <rect x="200" y="392" width="700" height="18" rx="9"/>
+    <rect x="240" y="428" width="620" height="18" rx="9"/>
+    <rect x="280" y="464" width="540" height="18" rx="9"/>
+  </g>
+
+  <!-- ID number: blocked out -->
+  <text x="110" y="560" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#55635b">ID number</text>
+  <rect x="110" y="572" width="360" height="48" rx="6" fill="url(#hatch)"/>
+  <text x="290" y="603" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#ffffff" fill-opacity="0.92">ID REMOVED</text>
+
+  <!-- address: blurred -->
+  <text x="110" y="660" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#55635b">Address</text>
+  <g filter="url(#blur)" fill="#55635b">
+    <rect x="110" y="672" width="420" height="16" rx="8"/>
+  </g>
+
+  <!-- QR code: blocked out -->
+  <rect x="820" y="540" width="170" height="170" rx="8" fill="url(#hatch)"/>
+  <text x="905" y="632" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700" fill="#ffffff" fill-opacity="0.92">QR REMOVED</text>
+
+  <text x="550" y="716" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#8a948e">Buyer-safe copy. SAMPLE CERTIFICATE, not a real document.</text>
+</svg>
